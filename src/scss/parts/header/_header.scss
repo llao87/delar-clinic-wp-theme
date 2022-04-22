@@ -1,0 +1,43 @@
+.header {
+    .top-line {
+        .container {
+            .contacts {
+                .work-time {
+                    .icon-time {}
+                    .days {}
+                }
+                .phone {}
+                .email {}
+                .socials {
+                    .icon {}
+                    .icon--fbk {}
+                    .icon--lin {}
+                    .icon--pin {}
+                    .icon--twt {}
+                    .icon--ins {}
+                }
+            }
+        }
+    }
+    .middle-line {
+        .container {
+            .logo {
+                .logo-img {}
+            }
+        }
+    }
+    .bottom-line {
+        .container {
+            .navigation {
+                .nav-item {
+                    .nav-link {}
+                }
+            }
+        }
+    }
+    .btn {}
+    .btn.btn--blue {}
+    .callback {
+        .callback-message {}
+    }
+}

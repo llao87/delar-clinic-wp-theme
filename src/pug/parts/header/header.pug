@@ -1,0 +1,47 @@
+include head
+body
+
+    header.header 
+        .top-line
+            .container
+                .contacts
+                    .work-time
+                        .icon-time 
+                        .days Mon-Sun 09:00 - 21:00
+                    a.phone('tel:+1-2345-3455-33') +1-2345-3455-33
+                    a.email('mailto:contact@mediztheme.com') contact@mediztheme.com
+
+                .socials 
+                    a.icon.icon--fbk(href='#') 
+                    a.icon.icon--lin(href='#') 
+                    a.icon.icon--pin(href='#') 
+                    a.icon.icon--twt(href='#') 
+                    a.icon.icon--ins(href='#') 
+
+        .middle-line
+            .container
+                a.logo(href='#')
+                    img.logo-img(src='#' alt='#')
+                
+        .bottom-line
+            .container
+                ul.navigation 
+                    li.nav-item
+                        a.nav-link(href='#') Home
+                    li.nav-item
+                        a.nav-link(href='#') About us 
+                    li.nav-item
+                        a.nav-link(href='#') Services 
+                    li.nav-item
+                        a.nav-link(href='#') Doctors 
+                    li.nav-item
+                        a.nav-link(href='#') Contacts
+
+                button.btn.btn--blue.js-callback Contact Now
+                
+                form.callback
+                    input(type='hidden' value='header-callback')
+                    p.callback-message Оставьте свои контактные данные, наш оператор перезвонит вам как только освободится
+                    input(type='text' placeholder='Your name')
+                    input(type='text' placeholder='Your phone')
+                    input(type='submit' value='Send')
