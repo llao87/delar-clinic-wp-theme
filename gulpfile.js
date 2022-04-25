@@ -54,6 +54,7 @@ gulp.task('script', async function() {
 
 gulp.task('js', async function() {
     return gulp.src([
+            'node_modules/jquery/dist/jquery.min.js',
             'node_modules/slick-carousel/slick/slick.js'
         ])
         .pipe(concat('libs.min.js'))

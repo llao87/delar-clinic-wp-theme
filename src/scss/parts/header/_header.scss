@@ -1,13 +1,66 @@
 .header {
+    padding: 2.8em 0;
     .top-line {
         .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             .contacts {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                font-size: 2em;
                 .work-time {
-                    .icon-time {}
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    color: $blue;
+                    .icon-time {
+                        .icon-clock {
+                            width: 2em;
+                            height: 2em;
+                            // width: 2em;
+                            // height: 2em;
+                            // background: #f3f3f3;
+                            // display: flex;
+                            // align-items: center;
+                            // justify-content: center;
+                            // svg {
+                            // width: 1.5em;
+                            // height: 1.5em;
+                            fill: none;
+                            stroke: $blue;
+                            stroke-width: 0.1em;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                        }
+                    }
                     .days {}
                 }
-                .phone {}
-                .email {}
+                .phone-box {
+                    svg {
+                        width: 1em;
+                        height: 1em;
+                        fill: none;
+                        stroke: $blue;
+                        stroke-width: 0.1em;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                    }
+                    .phone {}
+                }
+                .email-box {
+                    svg {
+                        width: 1em;
+                        height: 1em;
+                        fill: none;
+                        stroke: $blue;
+                        stroke-width: 0.1em;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                    }
+                    .email {}
+                }
                 .socials {
                     .icon {}
                     .icon--fbk {}
