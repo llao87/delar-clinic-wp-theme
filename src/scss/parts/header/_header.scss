@@ -9,65 +9,101 @@
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
-                font-size: 2em;
+                color: $blue;
+                width: 50%;
+                .icon {
+                    margin-right: 0.4em;
+                }
                 .work-time {
                     display: inline-flex;
                     align-items: center;
                     justify-content: flex-start;
-                    color: $blue;
-                    .icon-time {
-                        .icon-clock {
-                            width: 2em;
-                            height: 2em;
-                            // width: 2em;
-                            // height: 2em;
-                            // background: #f3f3f3;
-                            // display: flex;
-                            // align-items: center;
-                            // justify-content: center;
-                            // svg {
-                            // width: 1.5em;
-                            // height: 1.5em;
-                            fill: none;
-                            stroke: $blue;
-                            stroke-width: 0.1em;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                        }
+                    .icon-clock {
+                        width: 2em;
+                        height: 2em;
+                        fill: none;
+                        stroke: $blue;
+                        stroke-width: 0.15em;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
                     }
-                    .days {}
+                    .days {
+                        font-size: 2em;
+                    }
                 }
                 .phone-box {
-                    svg {
-                        width: 1em;
-                        height: 1em;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .icon-phone {
+                        width: 2.2em;
+                        height: 2.1em;
                         fill: none;
                         stroke: $blue;
-                        stroke-width: 0.1em;
+                        stroke-width: 0.15em;
                         stroke-linecap: round;
                         stroke-linejoin: round;
                     }
-                    .phone {}
+                    .phone {
+                        font-size: 2em;
+                    }
                 }
                 .email-box {
-                    svg {
-                        width: 1em;
-                        height: 1em;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .icon-email {
+                        width: 2em;
+                        height: 2em;
                         fill: none;
                         stroke: $blue;
-                        stroke-width: 0.1em;
+                        stroke-width: 0.15em;
                         stroke-linecap: round;
                         stroke-linejoin: round;
                     }
-                    .email {}
+                    .email {
+                        font-size: 2em;
+                    }
                 }
-                .socials {
+            }
+            .socials {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .link {
+                    display: block;
+                    text-decoration: none;
+                    width: 2em;
+                    height: 2em;
+                    .icon {
+                        display: inline-block;
+                        width: inherit;
+                        height: inherit;
+                        fill: none;
+                        stroke: $blue;
+                        stroke-width: 0.15em;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                    }
+                }
+                .link-vk {
                     .icon {}
-                    .icon--fbk {}
-                    .icon--lin {}
-                    .icon--pin {}
-                    .icon--twt {}
-                    .icon--ins {}
+                }
+                .link-ytube {
+                    .icon {}
+                }
+                .link-fb {
+                    .icon {}
+                }
+                .link-tw {
+                    .icon {}
+                }
+                .link-inst {
+                    .icon {}
+                }
+                .link-lin {
+                    .icon {}
                 }
             }
         }
